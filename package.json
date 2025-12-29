@@ -1,0 +1,20 @@
+{
+  "name": "201asg2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Company homepage built with Node.js + React (Vite).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.11"
+  }
+}

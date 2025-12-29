@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" fill="none" role="img" aria-label="StarBridge illustration">
+  <defs>
+    <linearGradient id="a" x1="80" y1="40" x2="740" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="s" x="-40" y="-40" width="900" height="500" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect x="40" y="40" width="740" height="340" rx="28" fill="url(#b)" stroke="rgba(255,255,255,0.12)"/>
+  <path d="M110 300c70-110 180-170 300-170s230 60 300 170" stroke="url(#a)" stroke-width="14" stroke-linecap="round" filter="url(#s)"/>
+  <path d="M210 300c50-85 125-130 200-130s150 45 200 130" stroke="rgba(255,255,255,0.45)" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="210" cy="300" r="10" fill="#22d3ee"/>
+  <circle cx="610" cy="300" r="10" fill="#a78bfa"/>
+
+  <g opacity="0.9">
+    <circle cx="160" cy="120" r="3.5" fill="white"/>
+    <circle cx="220" cy="95" r="2.6" fill="white"/>
+    <circle cx="560" cy="110" r="3.1" fill="white"/>
+    <circle cx="640" cy="86" r="2.4" fill="white"/>
+    <circle cx="700" cy="140" r="2.9" fill="white"/>
+  </g>
+
+  <text x="410" y="232" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system" font-size="26" font-weight="800" fill="rgba(255,255,255,0.88)">
+    StarBridge
+  </text>
+  <text x="410" y="262" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system" font-size="14" font-weight="700" fill="rgba(255,255,255,0.66)">
+    Connect design to engineering
+  </text>
+</svg>
+
