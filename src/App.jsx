@@ -100,13 +100,12 @@ function Header({ onNavigate }) {
                         ['Media', 'media'],
                         ['Contact', 'contact'],
                     ].map(([label, id]) => (
-                        <a
+                        <button
                             key={id}
+                            type="button"
                             className="navLink hoverGuide hoverTip"
                             data-tip={`Go to ${label}`}
-                            href="#"
-                            onClick={(e) => {
-                                e.preventDefault()
+                            onClick={() => {
                                 setOpen(false)
 
                                 const el = document.getElementById(id)
@@ -115,12 +114,12 @@ function Header({ onNavigate }) {
                                         el.getBoundingClientRect().top +
                                         window.pageYOffset -
                                         100
-                                    smoothScrollTo(y, 800)
+                                    smoothScrollTo(y, 900)
                                 }
                             }}
                         >
                             {label}
-                        </a>
+                        </button>
                     ))}
                 </nav>
 
