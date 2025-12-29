@@ -106,17 +106,20 @@ function Header({ onNavigate }) {
                             className="navLink hoverGuide hoverTip"
                             data-tip={`Go to ${label}`}
                             onClick={() => {
-                                setOpen(false)
-
                                 const el = document.getElementById(id)
+
                                 if (el) {
-                                    const y =
-                                        el.getBoundingClientRect().top +
-                                        window.pageYOffset -
-                                        100
-                                    smoothScrollTo(y, 900)
+                                    el.scrollIntoView({
+                                        behavior: 'smooth',
+                                        block: 'start',
+                                    })
                                 }
+
+                                setTimeout(() => {
+                                    setOpen(false)
+                                }, 150)
                             }}
+
                         >
                             {label}
                         </button>
