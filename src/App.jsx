@@ -385,20 +385,17 @@ export default function App() {
                             <MediaGrid />
                         </div>
 
-                        <div className="videoCard hoverGuide hoverTip" data-tip="Play the demo video">
-                            <h3 className="h3">Video Showcase</h3>
-                            <p className="muted">Example of embedding public video using HTML5.</p>
-                            <video
-                                className="video"
-                                controls
-                                preload="metadata"
-                            >
-                                <source
-                                    src="/my_video.mp4"
-                                    type="video/mp4"
-                                />
-                                Your browser does not support the video tag.
-                            </video>
+                        <div className="video-container">
+                            <iframe
+                                width="100%"
+                                height="450"
+                                src="https://www.youtube.com/embed/79TQSPZpVlc"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen
+                                style={{ borderRadius: '15px', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
+                            ></iframe>
                         </div>
                     </div>
                 </Section>
