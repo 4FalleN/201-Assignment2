@@ -646,7 +646,7 @@ main {
    Hover Guide Effect (Zoom + Glow + Tooltip)
    ========================================================= */
 
-/* 可悬停组件：放大 + 发光 + 提升层级 */
+
 .hoverGuide {
     position: relative;
     transform: translateZ(0);
@@ -666,7 +666,7 @@ main {
 
 
 
-    /* 指引光圈 */
+
     .hoverGuide::before {
         content: '';
         position: absolute;
@@ -682,7 +682,7 @@ main {
         opacity: 1;
     }
 
-/* 提示气泡：从 data-tip 读取内容 */
+
 .hoverTip::after {
     content: attr(data-tip);
     position: absolute;
@@ -708,7 +708,7 @@ main {
     transform: translateY(0);
 }
 
-/* 键盘可访问性：Tab 聚焦也有引导 */
+
 .hoverGuide:focus-visible {
     outline: none;
     box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.18), 0 18px 60px rgba(0, 0, 0, 0.45);

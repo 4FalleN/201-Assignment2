@@ -392,18 +392,13 @@ export default function App() {
                                 className="video"
                                 controls
                                 preload="metadata"
-                                poster="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=70"
                             >
                                 <source
-                                    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                                    src="/my_video.mp4"
                                     type="video/mp4"
                                 />
                                 Your browser does not support the video tag.
                             </video>
-                            <div className="tiny muted">
-                                If external access is blocked in class, place the video file in <code>public/</code> and use a local path
-                                such as <code>/demo.mp4</code>.
-                            </div>
                         </div>
                     </div>
                 </Section>
